@@ -1,0 +1,60 @@
+
+
+li {
+    list-style: none;
+    background-color: white;
+    color: black;
+    padding: 16px;
+    border-radius: 6px;
+    border: 3px solid blue;
+    margin: 16px;
+}
+
+li.completed, li.todo {
+    font-weight: bold;
+}
+
+li.completed {
+    border: 3px solid #aaa;
+    color: #aaa;
+    text-decoration: line-through;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a.gobacklink {
+    font-size: x-large;
+    font-weight: bold;
+    color: blue;
+    text-decoration: underline;
+}
+
+input.submit-btn, a.join-btn-link {
+    padding: 8px;
+    font-size: larger;
+    color: white;
+    background-color: blue;
+    border-radius: 6px;
+}
+
+label, input {
+    padding: 8px;
+}
+
+.label-input-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+form {
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+input.submit-btn {
+    border: none;
+    cursor: pointer;
+}

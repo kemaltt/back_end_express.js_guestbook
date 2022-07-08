@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+</head>
+
+<body>
+
+    <form method="post" action="/message">
+        <h1>Teufelsrochen Guestbook</h1>
+        <a class="join-btn-link" href="/">&lt; Go Home</a>
+        <div class="label-input-group">
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstName" placeholder="Your First Name comes here...">
+        </div>
+        <div class="label-input-group">
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastName" placeholder="Your Last Name comes here...">
+        </div>
+        <div class="label-input-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email address comes here...">
+        </div>
+        <div class="label-input-group">
+            <label for="email">Message:</label>
+            <textarea name="message" rows="10" cols="30"></textarea>
+        </div>
+
+
+        <input class="submit-btn" type="submit" value="send">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+[
+    {
+        "firstName": "Peter",
+        "lastName": "Yo",
+        "email": "peter@yo-med.com",
+        "massage": "Hello"
+    },
+    {
+        "firstName": "kemal",
+        "lastName": "tütüncü",
+        "email": "tester@gmail.com",
+        "message": "hi"
+    }
+
+]

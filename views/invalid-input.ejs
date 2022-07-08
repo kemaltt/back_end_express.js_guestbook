@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invalid Input</title>
+</head>
+
+<body>
+    Please check your input fields and fill out the form correctly...
+    <a href="/html/message.html">&lt; Go Back</a>
+
+    <h2>Your Input errors:</h2>
+    <ul>
+        <% errors.forEach((err)=> { %>
+            <li>Value "<b>
+                    <%- err.value %>
+                </b>" in input <b>
+                    <%- err.param %>
+                </b> is invalid.</li>
+            <% })%>
+    </ul>
+</body>
+
+</html>
